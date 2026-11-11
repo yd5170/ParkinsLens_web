@@ -6,9 +6,8 @@ ParkinsLens 팀 프로젝트의 발표자료를 바탕으로 MRI 업로드부터
 
 - 연구 프로젝트: [ParkinsLens](https://github.com/yd5170/ParkinsLens)
 - 웹 구현: [ParkinsLens_web](https://github.com/yd5170/ParkinsLens_web)
-- 실행 시작점: [`app.py`](app.py)
 
-> 연구·학습 및 포트폴리오 시연용입니다. 임상 진단 성능을 검증한 제품이 아닙니다. 환자관리 화면은 가상 데이터이며, 클래스별 예측 확률과 템플릿 요약을 실제 임상 소견과 구분합니다.
+> 연구·학습 시연용입니다. 임상 진단 성능을 검증한 제품이 아닙니다. 환자관리 화면은 가상 데이터이며, 클래스별 예측 확률과 템플릿 요약을 실제 임상 소견과 구분합니다.
 
 ## 프로젝트 배경
 
@@ -171,8 +170,5 @@ python -m unittest discover -s tests -v
 
 ## 출처와 기여 범위
 
-- 기획·화면 근거: PACScan 팀의 ParkinsLens 발표자료, `3팀(팍스캔)_파킨슨렌즈_수정본(2).pptx`.
-- 원본 웹 코드: 사용자가 제공한 `PACScan-main(1).zip`. [PACScan](https://github.com/yjson0509maymay/PACScan), [BRAINTENSOR](https://github.com/yjson0509maymay/BRAINTENSOR) 연결과 동료 CCA 구현에 대한 기존 출처를 유지합니다.
-- 연구 코드와 팀 프로젝트 전체 결과를 이 웹 저장소의 단독 개인 성과로 주장하지 않습니다. 개인 기여는 담당 기능과 실제 커밋 기록을 근거로 설명해야 합니다.
 - 논문: *Bio-inspired feature selection for early diagnosis of Parkinson’s disease through optimization of deep 3D nested learning* 등 첨부 발표자료의 참고문헌을 프로젝트 배경으로 사용했습니다. 논문과 동일한 조건의 성능 재현은 확인하지 않았습니다.
 - 이미지·로고는 제공 자료에 포함된 자산입니다. 제3자 자산의 재사용 권리와 원본 라이선스는 별도 확인이 필요하며, 이 저장소에 임의의 일괄 오픈소스 라이선스를 부여하지 않습니다.
