@@ -1,0 +1,23 @@
+# Patient inputs and per-run outputs
+results/runs/*
+!results/runs/.gitkeep
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+!assets/sample_t2_mri.nii.gz
+assets/sample_dicom_patient/
+# Credentials and environments
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Model artifacts are downloaded externally
+*.pt
+*.pth
+*.joblib
