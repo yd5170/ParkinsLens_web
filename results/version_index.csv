@@ -1,0 +1,33 @@
+version,date_kst,change_type,summary,pipeline,bias_correction,status
+1.0.0,2026-07-21,UI,"NeuroLens 대시보드와 DICOM 폴더 업로드 화면 구현",deployable_v1,false,complete
+1.1.0,2026-07-22,preprocessing,"DICOM 자동 시리즈 분류와 클라우드 경량 전처리 연결",deployable_v1,false,complete
+1.1.1,2026-07-22,UX,"한글 임상 용어 복원 및 반응형 화면 개선",deployable_v1,false,complete
+1.1.2,2026-07-22,UX,"메인 선택 화면에 따라 오른쪽 정보 패널 동기화",deployable_v1,false,complete
+1.2.0,2026-07-23,integration,"로컬 BRAINTENSOR ref21order_v1 전체 전처리 및 자동 실행 감사 로그 연결",ref21order_v1,false,implemented
+1.2.1,2026-07-23,integration,"PACScan 형제 BRAINTENSOR 저장소 자동 탐색 및 새 PC 설치 스크립트 추가",ref21order_v1,false,complete
+1.2.2,2026-07-26,UX,"하단 실행 상태를 업로드·원본·전처리·AI·XAI 화면별 문구와 색상으로 동기화",ref21order_v1,false,complete
+1.2.3,2026-07-26,UX,"XAI 보고서의 표·설명·확률·판독 요약·하단 정보 글자와 줄 간격 확대",ref21order_v1,false,complete
+1.2.4,2026-07-26,XAI,"중복된 AI 보조 판독 요약을 실제 전처리·예정 모델·연결 상태를 구분한 AI 모델 정보로 교체",ref21order_v1,false,complete
+1.2.5,2026-07-26,UX,"메인 및 XAI 보고서 NeuroLens 로고 확대와 헤더 높이·간격·모바일 비율 조정",ref21order_v1,false,complete
+1.2.6,2026-07-26,UX,"전처리 상태와 XAI 보고서에서 N4 미사용 문구 숨김; 실행 로그의 재현성 필드는 유지",ref21order_v1,false,complete
+1.3.0,2026-07-26,feature,"클릭 가능한 환자관리 페이지와 가상 환자 선택·기본정보·검사/분석 이력·임상 메모 구현",ref21order_v1,false,complete
+1.4.0,2026-07-26,feature,"원본 MRI와 전처리 결과의 축상·관상·시상면 독립 슬라이스 이동 및 위치 표시 구현",ref21order_v1,false,complete
+1.4.1,2026-07-26,feature,"원본 MRI와 전처리 결과의 축상·관상·시상면 상대 위치를 0~100% 기준으로 연동",ref21order_v1,false,complete
+1.4.2,2026-07-26,feature,"원본·전처리 MRI 공통 50~250% 확대축소와 중앙 위치·100% 배율 보기 초기화 구현",ref21order_v1,false,complete
+1.5.0,2026-07-26,feature,"환자관리에서 선택한 가상 환자를 분석 헤더·우측 환자정보·XAI 보고서에 연동",ref21order_v1,false,complete
+1.5.1,2026-07-26,safety,"선택 환자와 업로드 DICOM PatientID 일치 여부 확인·마스킹 표시·불일치 경고 및 실행 감사로그 추가",ref21order_v1,false,complete
+1.5.2,2026-07-26,feature,"환자관리에서 선택 환자 ID를 유지한 채 MRI 분석 화면으로 바로 이동하는 버튼 추가",ref21order_v1,false,complete
+1.5.3,2026-07-26,UX,"환자관리 왼쪽 환자 카드 전체를 클릭 가능한 선택 링크로 변경하고 선택·호버 상태 강조",ref21order_v1,false,complete
+1.5.4,2026-07-26,feature,"환자관리 목록 이름·ID·관리상태 통합 검색과 관리상태 필터 및 검색 결과 수 표시",ref21order_v1,false,complete
+1.5.5,2026-07-26,feature,"환자 검사 이력의 T2 MRI 행에서 저장된 AI 분석 결과와 XAI 보고서를 환자 정보 유지 상태로 바로 열기",ref21order_v1,false,complete
+1.5.6,2026-07-26,data,"선택한 검사 이력 날짜를 XAI 보고서 검사일에 반영하고 저장된 생성 시각 또는 신규 분석 완료 시각을 생성일시에 표시",ref21order_v1,false,complete
+1.5.7,2026-07-26,UX,"왼쪽 DICOM 업로드 버튼을 한글로 표시하고 좁은 패널 안에서 잘리지 않도록 너비·줄바꿈·용량 안내 숨김 처리",ref21order_v1,false,complete
+1.5.8,2026-07-26,copy,"중앙 분석 대기 안내와 왼쪽 ZIP 예시 안내 문구를 짧고 명확한 업로드 지시문으로 수정",ref21order_v1,false,complete
+1.5.9,2026-07-26,UX,"DICOM 폴더 업로드 제목 오른쪽의 물음표 도움말 아이콘과 팝업 박스를 제거",ref21order_v1,false,complete
+1.6.0,2026-07-26,responsive,"전체 화면 한글을 단어 단위로 줄바꿈하도록 공통 규칙 적용하고 업로드·상태·보고서 용어와 소형 화면 정렬을 보정",ref21order_v1,false,complete
+1.6.1,2026-07-26,responsive,"전체 화면의 비상 음절 분리를 금지하고 버튼·라벨·업로더에 단어 단위 줄바꿈을 강제 적용",ref21order_v1,false,complete
+1.6.2,2026-07-26,branding,"공통 로고를 새 ParkinsLens 이미지로 교체하고 상단 헤더와 XAI 보고서에서 정사각형 로고를 크게 표시",ref21order_v1,false,complete
+1.6.3,2026-07-26,fix,"Streamlit Cloud DICOM 변환 실패 시 pydicom 3D 적층 보조 변환을 시도하고 전체 앱 중단 대신 한글 오류 안내 표시",ref21order_v1,false,complete
+1.6.4,2026-07-26,UX,"전처리·원본 MRI 뷰어의 보기 초기화 버튼을 76×76px 정사각형으로 고정하고 슬라이더 옆 중앙 정렬",ref21order_v1,false,complete
+1.6.5,2026-07-26,UX,"영상 확대·축소 박스와 정사각형 초기화 버튼의 합산 너비를 위쪽 3개 위치 박스 총너비에 맞추도록 우측 정렬",ref21order_v1,false,complete
+1.6.6,2026-07-26,feature,"XAI 판독 결과를 한글 글꼴과 영상이 포함된 PDF로 생성하고 환자 ID·검사일 파일명으로 다운로드",ref21order_v1,false,complete
